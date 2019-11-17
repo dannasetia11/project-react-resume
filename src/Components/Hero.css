@@ -3,23 +3,64 @@
   height: 500px;
   background-image: url(./img/programing.jpg);
   background-position: center;
+  text-align: center;
 }
 .Hero .profile {
   width: 150px;
   height: 150px;
-  margin-top: 120px;
-  margin-bottom: 5px;
+  margin-top: 50px;
+  border: 10px brown double;
 }
-.Hero h2 {
+.Hero h2 a {
   color: white;
+  text-decoration: none;
 }
-.Hero h4 {
+.Hero h4 a {
   color: white;
+  text-decoration: none;
 }
-.Hero button {
-  background-color: green;
+.Hero .button1 {
+  width: 120px;
+  height: 40px;
+  background-color: gray;
   color: white;
-  padding: 4px;
+  padding: 10px;
   margin: 4px;
-  border-radius: 10px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.Hero .button2 {
+  width: 120px;
+  height: 40px;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  margin: 4px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.Hero .button1:hover {
+  width: 200px;
+  height: 40px;
+  background-color: darkgray;
+  color: black;
+  padding: 10px;
+  margin: 4px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.Hero .button2:hover {
+  width: 200px;
+  height: 40px;
+  background-color: darkgray;
+  color: black;
+  padding: 10px;
+  margin: 4px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.Hero .icons {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
 }
