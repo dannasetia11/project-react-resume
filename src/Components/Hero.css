@@ -10,6 +10,9 @@
   height: 150px;
   margin-top: 50px;
   border: 10px brown double;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Hero h2 a {
   color: white;
